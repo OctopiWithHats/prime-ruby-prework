@@ -4,5 +4,6 @@ def prime?(number)
   check = TRUE
   if number<2
     check = FALSE
-    elsif 
+  else
+    range do
 end
