@@ -10,6 +10,8 @@ def prime?(number)
         check = FALSE
         break
       end
-      
+    end
+  end
+  puts check
         
 end
