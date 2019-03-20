@@ -6,5 +6,5 @@ def prime?(number)
     check = FALSE
   else
     range.each do |i|
-      
+      if number ==
 end
