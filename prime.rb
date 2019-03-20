@@ -5,5 +5,6 @@ def prime?(number)
   if number<2
     check = FALSE
   else
-    range do
+    range.each do |i|
+      
 end
