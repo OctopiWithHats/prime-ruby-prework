@@ -1,8 +1,8 @@
 # Add  code here!
 def prime?(number)
   if number<1
-    check = true
-  end
+    check = false
+  elsif number>=1
   
   return check
   
