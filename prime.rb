@@ -2,8 +2,6 @@
 def prime?(number)
   range = (2..(number-1)).to_a
   check = true
-  if number<0
-    check = false
   if number<2
     check = false
   else
