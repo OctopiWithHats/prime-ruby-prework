@@ -2,8 +2,10 @@
 def prime?(number)
   range = (2..(number-1)).to_a
   check = TRUE
+  if number<0
+    check = false
   if number<2
-    check = FALSE
+    check = false
   else
     range.each do |i|
       if number % i == 0
