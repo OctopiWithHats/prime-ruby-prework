@@ -7,6 +7,9 @@ def prime?(number)
   else
     range.each do |i|
       if number % x == 0
-        check = TRUE
+        check = FALSE
+        break
+      end
+      
         
 end
